@@ -1,0 +1,140 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url('../assets/image2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color:white;
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+   
+}
+
+h3{
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #7a7474c0;
+    overflow: hidden;
+    height: 50px;
+    padding-left: 10px;
+    margin: 0%;
+}
+
+#home {
+    width: 80%;
+    max-width: 800px;
+    background-color:transparent;
+    padding: 20px;
+}
+
+#Buttons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#mainContent {
+    display: flex;
+    background-color: transparent;
+}
+
+#contact {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#rightPanel {
+    flex: 1;
+    
+}
+
+#deleteButton {
+    background-color: rgba(255, 0, 0, 0.507); 
+    color: white; 
+    border: none; 
+    padding: 10px; 
+    cursor: pointer; 
+    border: 0.5px solid rgb(255, 255, 255);
+
+}
+
+#deleteAllButton {
+    background-color: rgba(255, 0, 0, 0.507); 
+    color: white; 
+    border: none; 
+    padding: 10px ; 
+    cursor: pointer; 
+    border: 0.5px solid rgb(255, 255, 255);
+}
+
+button {
+    background-color: rgba(255, 0, 0, 0.507); 
+    color: white; 
+    border: none; 
+    padding: 10px ; 
+    margin: 5px ;
+    cursor: pointer; 
+    border: 0.5px solid rgb(255, 255, 255);
+}
+
+#deleteButton:hover {
+    background-color: darkred; 
+    
+}
+
+#deleteAllButton:hover {
+    background-color: darkred; 
+    
+}
+
+#addButton {
+    background-color: rgba(255, 0, 0, 0.507); 
+    color: white; 
+    border: none; 
+    padding: 10px ; 
+    cursor: pointer; 
+    border: 0.5px solid rgb(255, 255, 255);
+}
+
+#addButton:hover {
+    background-color: rgb(168, 23, 23);
+}
+
+#closeButton:hover {
+    background-color: #da190b; 
+}
+
+#Buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+
+#Buttons button {
+    font-size: 20px; 
+}
+
+
